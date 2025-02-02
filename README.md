@@ -8,17 +8,6 @@ A Python package for visualizing parliamentary seat distributions using Plotly. 
 - **Image Overlay**: Easily embed a local image (e.g., a flag or logo) at the center of the plot.
 
 ## Directory Structure
-plotly-parliament-charts/
-├── parliament_plot/
-│   ├── __init__.py
-│   ├── data_utils.py
-│   ├── plot_utils.py
-│   └── main.py
-├── images/
-│   └── european-union.png
-├── requirements.txt
-└── README.md
-
 - **parliament_plot/__init__.py**: Makes `parliament_plot` a recognized Python package.
 - **parliament_plot/data_utils.py**: Handles generation of radii, angles, and seat distributions.
 - **parliament_plot/plot_utils.py**: Manages building Plotly figures, layouts, and optional image overlays.
